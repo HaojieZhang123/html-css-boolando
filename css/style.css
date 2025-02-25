@@ -3,3 +3,74 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Tags */
+header{
+    background-color: #FF6900;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* Flexbox and layout tools */
+.d-flex{
+    display: flex;
+}
+
+.align-center{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.align-left{
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.align-right{
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Containers */
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.side-header{
+    width: 20%;
+}
+
+.center-header{
+    width: 60%;
+}
+
+/* Elements */
+.logo{
+    height: 30px;
+}
+
+.head-icon{
+    margin: 0 5px;
+}
+
+/* Utility */
+.inline-block{
+    display: inline-block;
+}
