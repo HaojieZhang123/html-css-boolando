@@ -77,6 +77,11 @@ li{
     width: 30%;
 }
 
+.content{
+    width: 100%;
+    padding-bottom: 30px;
+}
+
 /* Elements */
 .logo{
     height: 30px;
@@ -121,6 +126,19 @@ li{
 
 .label{
     padding: 5px;
+}
+
+.brand{
+    font-size: 12px;
+}
+
+.price{
+    color: red;
+    font-weight: bold;
+}
+
+.original-price{
+    text-decoration: line-through;
 }
 
 /* Utility */
